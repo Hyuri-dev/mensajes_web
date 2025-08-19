@@ -9,13 +9,25 @@ body {
   border-radius: 20px;
   background-color: #f2f2f2;
   margin-left: 5%;
+  vertical-align: top;
 }
 
 h1,
 h2 {
+  color: #272D2D;
   text-align: center;
   margin-top: 20px;
+  
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
+
+
 
 .container-child {
   width: 360px;
@@ -31,7 +43,7 @@ h2 {
 .buttom-submit {
   align-items: center;
   position: absolute;
-  top: 63%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
 
